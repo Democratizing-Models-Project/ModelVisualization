@@ -12,4 +12,4 @@ for discovery of the model structure
 
 ## Current status
 
-GitHub pages: [link](to_be_updated)
+GitHub pages: [link](https://democratizing-models-project.github.io/ModelVisualization/)
