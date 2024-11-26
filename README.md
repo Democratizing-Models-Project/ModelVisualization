@@ -13,3 +13,22 @@ for discovery of the model structure
 ## Current status
 
 GitHub pages: [link](https://democratizing-models-project.github.io/ModelVisualization/)
+
+## Locations of `json` models
+
+- [HEP Statistics Serialization Standard](https://github.com/hep-statistics-serialization-standard/hep-statistics-serialization-standard)
+- [Amplitude model serialization](https://rub-ep1.github.io/amplitude-serialization/)
+
+## Local deploying and hosting 
+
+Just run the following commends. Page will be opened in browser
+```
+git clone "https://github.com/Democratizing-Models-Project/ModelVisualization"
+cd .\ModelVisualization\
+.\index.html
+```
+If using local file: page should have access to it. Hosting allows to achieve it 
+Run following command in `ModelVisualization` directory (after changing parameter of `fetchAndRenderTree` (at the very end of `index.html`) to json filename )
+```
+python -m http.server 8000
+```
